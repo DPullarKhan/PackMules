@@ -1,4 +1,4 @@
-class MeshComponent : public RendererComponent ()
+class MeshComponent
 {
 	protected:
 		float length, width, radius;
