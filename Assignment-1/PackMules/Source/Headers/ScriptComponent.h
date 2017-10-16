@@ -1,4 +1,4 @@
-class ScriptComponent()
+class ScriptComponent
 {
 	private:
 		enum ActorType
@@ -6,6 +6,6 @@ class ScriptComponent()
 			player, obstacle, hole
 		};
 	public:
-		MoveParts();
-		ComputePlayerInput();
+		void MoveParts();
+		void ComputePlayerInput();
 };

@@ -1,4 +1,4 @@
-class Assets()
+class Assets
 {
 	private:
 		enum AssetType
@@ -7,7 +7,7 @@ class Assets()
 		};
 	public:
 		void LoadAssetFrom();
-		void SetAsset(Asset newAsset);
+		void SetAsset(Assets newAsset);
 
-		Asset GetAsset();
-}
+		Assets GetAsset();
+};

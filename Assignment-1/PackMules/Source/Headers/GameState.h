@@ -1,8 +1,8 @@
-class GameState()
+class GameState
 {
 	protected:
-		List<Command> CommandList;
-		List<Actor> ActorList;
+		//List<Command> CommandList;
+		//List<Actor> ActorList;
 		enum State
 		{
 			game, menu, option
